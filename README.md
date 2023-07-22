@@ -1,6 +1,6 @@
 # Welcome to Remix
 
-- [Article](https://edwardsmoses.com/guide-to-integrating-stripe-with-remix)
+- [Article](https://edwardsmoses.com/dockerize-a-remix-react-app-with-mariadb)
 
 ## Development
 
