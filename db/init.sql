@@ -1,9 +1,9 @@
 CREATE TABLE users(
-   id INT AUTO_INCREMENT PRIMARY KEY,
+   id int auto_increment,
    name VARCHAR(40) NOT NULL,
-   email VARCHAR(60) NOT NULL UNIQUE
+   email VARCHAR(60) NOT NULL UNIQUE,
+   primary key(id)
 );
 
 /* Seed initial data */
-INSERT INTO users (name, email) VALUES
-('John Doe', 'john@example.com'),
+INSERT INTO users (name, email) VALUES ('John Doe', 'john@example.com')
